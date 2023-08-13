@@ -17,7 +17,7 @@ describe('Cookies', () => {
 
     cy
       .get('[data-cy="login-email"]')
-      .type('filip@example.com');
+      .type('luis101001@example.com');
 
     cy
       .get('[data-cy="login-password"]')
@@ -27,10 +27,19 @@ describe('Cookies', () => {
       .get('[data-cy="login"]')
       .click();
 
+      if(
+      cy.get('[data-cy=logged-user]').should('contains.text', 'luis101001')){
+        console.log('SuccessfullTest')
+      }
+      if(
+      cy.getCookie('usser is logged')
+      ){console.log('CokkiesFound')}
+
     });
 
-  it('test #2', () => {
+  
+  /*it('test #2', () => {
 
-  });
+  });*/
 
 });

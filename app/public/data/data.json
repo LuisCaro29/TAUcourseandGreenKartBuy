@@ -1,6 +1,45 @@
 {
-  "boards": [],
-  "tasks": [],
+  "boards": [
+    {
+      "name": "New Board ",
+      "user": 0,
+      "id": 77943403134,
+      "starred": false,
+      "created": "2023-08-12"
+    }
+  ],
+  "tasks": [
+    {
+      "boardId": 77943403134,
+      "description": "",
+      "completed": false,
+      "listId": 35961396944,
+      "title": "task2",
+      "id": 70007760528,
+      "created": "2023-08-12",
+      "deadline": "2023-08-15",
+      "order": 1
+    },
+    {
+      "boardId": 77943403134,
+      "description": "",
+      "completed": false,
+      "listId": 35961396944,
+      "title": "task1",
+      "id": 1129957089,
+      "created": "2023-08-12",
+      "deadline": "2023-08-15",
+      "order": 0,
+      "image": "/public/uploaded/1129957089_logo.png"
+    }
+  ],
   "users": [],
-  "lists": []
+  "lists": [
+    {
+      "boardId": 77943403134,
+      "title": "Done",
+      "id": 35961396944,
+      "created": "2023-08-12"
+    }
+  ]
 }
