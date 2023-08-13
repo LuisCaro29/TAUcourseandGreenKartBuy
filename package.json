@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.4",
+    "@applitools/eyes-cypress": "^3.36.2",
+    "cypress": "^12.17.3",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.10.0"
+  }
+}
